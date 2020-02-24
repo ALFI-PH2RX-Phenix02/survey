@@ -5,7 +5,73 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
-
+    <TextView
+        android:id="@+id/t4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Question 3"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/t4_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="What kind of phone are you using?"
+        android:textSize="20sp"
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="2G"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="3G"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="4G"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="Others"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:onClick="clicked4"
+        />
 
     <!-- END    : Your code should be within this block -->
 

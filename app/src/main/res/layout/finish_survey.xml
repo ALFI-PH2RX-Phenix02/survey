@@ -5,8 +5,42 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
-
-
+    <TextView
+        android:id="@+id/t14_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="THANK YOU"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/t14_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="FOR YOUR ANSWERS!"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/image"/>
+    <Button
+        android:id="@+id/btn14_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="FINISH"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:onClick="clicked14"
+        />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>
