@@ -6,7 +6,7 @@
 
     <!--  Start : Your code should be within this block -->
     <TextView
-        android:id="@+id/t14_1"
+        android:id="@+id/t13_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -16,7 +16,7 @@
         android:textSize="35sp"
         />
     <TextView
-        android:id="@+id/t14_2"
+        android:id="@+id/t13_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/t1_1"
@@ -31,16 +31,15 @@
         android:layout_height="400dp"
         android:src="@drawable/image"/>
     <Button
-        android:id="@+id/btn14_1"
+        android:id="@+id/btn13_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:text="FINISH"
+        android:text="VIEW REPORT"
         android:textSize="20sp"
         android:background="@color/colorPrimary"
-        android:onClick="clicked14"
+        android:onClick="clicked13"
         />
     <!-- END    : Your code should be within this block -->
-
 </LinearLayout>

@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
-        c=findViewById(R.id.checkbox1);
+        c=findViewById(R.id.checkbox0);
     }
 
-    public void clicked1(View view){
+    public void clicked0(View view){
         if(c.isChecked()){
-            Intent intent = new Intent(this,Activity2.class);
+            Intent intent = new Intent(this, Activity1.class);
             startActivity(intent);
             allactivities.add(this);
         }

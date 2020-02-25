@@ -4,36 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.RadioGroup;
-import android.widget.Toast;
 import android.content.Intent;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 public class Activity2 extends AppCompatActivity {
     RadioGroup r;
-//    boolean checked = false;
+    static String report2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.question_one);
+        setContentView(R.layout.question_two);
         r=findViewById(R.id.radiogroup2);
-//        r.setOnCheckedChangeListener(listener);
     }
-//    RadioGroup.OnCheckedChangeListener listener = new RadioGroup.OnCheckedChangeListener() {
-//        @Override
-//        public void onCheckedChanged(RadioGroup group, int checkedId) {
-//            checked = true;
-//        }
-//    };
-
     public void clicked2(View view){
-        Intent intent = new Intent(this,Activity3.class);
+        //save the information from users
+        RadioButton temp = findViewById(r.getCheckedRadioButtonId());
+        report2 = (temp.getText().toString());
+
+        Intent intent = new Intent(this, Activity3.class);
         startActivity(intent);
         MainActivity.allactivities.add(this);
-//        if(checked){
-//            Intent intent = new Intent(this,Activity3.class);
-//            startActivity(intent);
-//        }
-//        else
-//            Toast.makeText(getApplicationContext(),"Please select one item",Toast.LENGTH_LONG).show();
     }
 }
+

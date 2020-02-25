@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/t14_title_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="REPORT"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/t14_title_q1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="If you are going to buy a new phone, the brand you will choose: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_0"
+        android:layout_toRightOf="@+id/t14_title_q1"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_title_q2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Your phone costs: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q1"
+        android:layout_toRightOf="@+id/t14_title_q2"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="The kind of phone you're using: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q2"
+        android:layout_toRightOf="@+id/t14_title_q3"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q4"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="The functions your phone has: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q3"
+        android:layout_toRightOf="@+id/t14_title_q4"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="The functions most used: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q4"
+        android:layout_toRightOf="@+id/t14_title_q5"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="The functions you expect to have in the future: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q5"
+        android:layout_toRightOf="@+id/t14_title_q6"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q7"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="The condition you'll buy a phone: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q6"
+        android:layout_toRightOf="@+id/t14_title_q7"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q8"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q7"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="If you are going to buy a new phone, the brand you will choose: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q7"
+        android:layout_toRightOf="@+id/t14_title_q8"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q9"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q8"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="The most important characteristic for you: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q8"
+        android:layout_toRightOf="@+id/t14_title_q9"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q10"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Your age: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q9"
+        android:layout_toRightOf="@+id/t14_title_q10"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q11"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Your gender: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q10"
+        android:layout_toRightOf="@+id/t14_title_q11"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/t14_title_q12"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q11"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="The money you earn per month: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/t14_q12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_title_q11"
+        android:layout_toRightOf="@+id/t14_title_q12"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t14_q12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="FINISH"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:onClick="clicked14"
+        />
+    <!-- END    : Your code should be within this block -->
+
+</RelativeLayout>
