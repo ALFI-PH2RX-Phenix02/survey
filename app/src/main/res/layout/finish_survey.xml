@@ -30,16 +30,22 @@
         android:layout_width="wrap_content"
         android:layout_height="400dp"
         android:src="@drawable/image"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <Button
         android:id="@+id/btn13_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
         android:text="VIEW REPORT"
         android:textSize="20sp"
         android:background="@color/colorPrimary"
         android:onClick="clicked13"
         />
+    </RelativeLayout>
     <!-- END    : Your code should be within this block -->
 </LinearLayout>

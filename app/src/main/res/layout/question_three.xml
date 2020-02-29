@@ -61,18 +61,25 @@
             android:text="Others"
             />
     </RadioGroup>
-    <Button
-        android:id="@+id/btn3_1"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="NEXT"
-        android:textSize="20sp"
-        android:background="@color/colorPrimary"
-        android:onClick="clicked3"
-        />
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="NEXT"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:onClick="clicked3"
+            />
+
+
+    </RelativeLayout>
 
     <!-- END    : Your code should be within this block -->
 
